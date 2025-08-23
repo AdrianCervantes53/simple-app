@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-	return "<h1>Ubuntus srvr</h1><p>aeiou</p>"
+	return "<h1>Ubuntus srvr</h1><p>123456</p>"
 
 @app.route("/health")
 def health():
